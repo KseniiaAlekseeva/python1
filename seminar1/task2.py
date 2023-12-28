@@ -1,7 +1,7 @@
 MAX_NUM = 1e5
 
 
-def primeNumber(n):
+def prime_number(n):
     if n == 0 or n == 1:
         return False
     for i in range(2, n // 2 + 1):
@@ -11,10 +11,9 @@ def primeNumber(n):
 
 
 while True:
-    print("Enter number: ")
-    num = int(input())
+    num = int(input("Enter number: "))
     if 0 < num <= MAX_NUM:
-        if primeNumber(num):
+        if prime_number(num):
             print(f"Number {num} is prime.")
         else:
             print(f"Number {num} is not prime.")
