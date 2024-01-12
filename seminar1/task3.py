@@ -6,18 +6,16 @@ MAX_TRY = 10
 
 
 def guess_number(max_try):
-    count = 0
-    while count < max_try:
-        count += 1
+    for i in range(max_try):
         cur_num = int(input("Enter the number: "))
         if cur_num == num:
-            print(f"You win! Attempt - {count}")
+            print(f"You win! Attempt - {i + 1}")
             break
         elif num > cur_num:
-            print(f"More... Attempt - {count}")
+            print(f"More... Attempt - {i + 1}")
         else:
-            print(f"Less... Attempt - {count}")
-    if count == max_try:
+            print(f"Less... Attempt - {i + 1}")
+    if i + 1 == max_try:
         print("All attempts is over. You loose.")
 
 
