@@ -1,6 +1,8 @@
 import os.path
 import random
 
+__all__ = ['gen_files', 'gen_files_from_dict']
+
 
 def gen_str(num_symbols: int) -> str:
     symbols = []
@@ -30,5 +32,5 @@ def gen_files_from_dict(extensions: dict, dir_name: str):
 
 if __name__ == '__main__':
     # my_dict = {'.jpeg': 1, '.png': 2, '.txt': 3}
-    my_dict = {'.mrk': 4}
-    gen_files_from_dict(my_dict, 'test_files')
+    my_dict = {'.txt': 8}
+    gen_files_from_dict(my_dict, '../test_files')

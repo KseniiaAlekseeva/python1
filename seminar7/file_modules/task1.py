@@ -1,5 +1,7 @@
 from random import randint, random
 
+__all__ = ['print_nums']
+
 
 def gen_pair(min_lim: int, max_lim: int) -> tuple:
     a = randint(-1000, 1000)

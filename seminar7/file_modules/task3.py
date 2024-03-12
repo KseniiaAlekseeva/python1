@@ -1,5 +1,7 @@
 from typing import TextIO
 
+__all__ = ['read_files']
+
 
 def read_line_or_begin(fd: TextIO) -> str:
     text = fd.readline()

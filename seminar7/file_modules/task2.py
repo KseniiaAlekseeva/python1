@@ -1,5 +1,7 @@
 from random import randint, choice
 
+__all__ = ['print_names']
+
 VOWELS = {'a', 'o', 'u', 'e', 'i', 'y'}
 
 

@@ -1,9 +1,10 @@
 import os
 
+__all__ = ['sort_file']
 ext_dict = {'video': ['mkv'], 'photo': ['jpeg', 'png'], 'text': ['txt']}
 
 
-def sort_file(direct: str, ):
+def sort_file(direct: str):
     for file in os.listdir(direct):
         extens = file.split('.')[-1]
         for k, v in ext_dict.items():
@@ -14,5 +15,5 @@ def sort_file(direct: str, ):
                     os.rename(os.path.join(direct, file), os.path.join(k, file))
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     sort_file('test_files')
