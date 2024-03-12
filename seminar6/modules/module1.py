@@ -31,7 +31,7 @@ if __name__ == '__main__':
         print('Not enough arguments')
     if len(args) in (1, 2, 3):
         lower_limit = args[0]
-    if len(args) in (1, 2, 3):
+    if len(args) in (2, 3):
         upper_limit = args[1]
     if len(args) == 3:
         max_try = args[2]
