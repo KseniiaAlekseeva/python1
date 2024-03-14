@@ -1,0 +1,48 @@
+{
+    "testdir": [
+        {
+            "name": "dir3",
+            "parent": "testdir",
+            "type": "DIRECTORY",
+            "size": 0
+        },
+        {
+            "name": "dir1",
+            "parent": "testdir",
+            "type": "DIRECTORY",
+            "size": 20
+        },
+        {
+            "name": "file1.txt",
+            "parent": "testdir",
+            "type": "FILE",
+            "size": 14
+        },
+        {
+            "name": "dir1.csv",
+            "parent": "testdir",
+            "type": "FILE",
+            "size": 15
+        }
+    ],
+    "testdir/dir1": [
+        {
+            "name": "dir2",
+            "parent": "dir1",
+            "type": "DIRECTORY",
+            "size": 0
+        },
+        {
+            "name": "file2",
+            "parent": "dir1",
+            "type": "FILE",
+            "size": 8
+        },
+        {
+            "name": "file3.tt",
+            "parent": "dir1",
+            "type": "FILE",
+            "size": 12
+        }
+    ]
+}

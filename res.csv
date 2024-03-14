@@ -1,0 +1,8 @@
+ROOT,NAME,PARENT,TYPE,SIZE
+testdir,dir3,testdir,DIRECTORY,0
+testdir,dir1,testdir,DIRECTORY,20
+testdir,file1.txt,testdir,FILE,14
+testdir,dir1.csv,testdir,FILE,15
+testdir/dir1,dir2,dir1,DIRECTORY,0
+testdir/dir1,file2,dir1,FILE,8
+testdir/dir1,file3.tt,dir1,FILE,12

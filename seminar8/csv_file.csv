@@ -1,4 +1,0 @@
-Dir,Files
-DIRECTORY - testdir,"['FILE - file1.txt = 14 byte', 'FILE - dir1.csv = 15 byte']"
-DIRECTORY - testdir/dir1,['FILE - file2 = 8 byte']
-DIRECTORY - testdir/dir1/dir2,[]
